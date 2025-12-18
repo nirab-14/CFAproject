@@ -1,0 +1,12 @@
+.dashboard {
+  display: flex;
+  height: 100vh;
+  background-color: #f0f2f5;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .dashboard {
+    flex-direction: column;
+  }
+}
